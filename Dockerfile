@@ -1,4 +1,4 @@
-FROM tomcat:10.1.24
+FROM tomcat:10.1.24-jdk22
 
 RUN rm -rf /usr/local/tomcat/webapps/*
 
